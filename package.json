@@ -7,13 +7,13 @@
     "dev": "vite --host",
     "build": "vite build",
     "lint": "eslint .",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "country-code-emoji": "^2.3.0",
     "react": "^19.2.0",
-    "react-dom": "^19.2.0",
-    "deploy": "gh-pages -d dist"
+    "react-dom": "^19.2.0"
   },
   "devDependencies": {
     "@eslint/js": "^9.39.1",
